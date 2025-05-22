@@ -3,7 +3,7 @@ kind: Route
 metadata:
   annotations:
     openshift.io/host.generated: "true"
-  name: my-nodejs-route
+  name: nodejs-sample
 spec:
   port:
     targetPort: http-3001
@@ -12,6 +12,6 @@ spec:
     termination: edge
   to:
     kind: Service
-    name: my-nodejs-svc
+    name: nodejs-sample
     weight: 100
   wildcardPolicy: None
