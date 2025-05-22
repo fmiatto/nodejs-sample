@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: my-nodejs-svc
+  name: nodejs-sample
 spec:
   ports:
     - name: http-3001
@@ -9,4 +9,4 @@ spec:
       protocol: TCP
       targetPort: 3001
   selector:
-    app: nodejs-app
+    app: nodejs-sample
