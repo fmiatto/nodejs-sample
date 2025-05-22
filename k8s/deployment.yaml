@@ -1,19 +1,19 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: my-nodejs
+  name: nodejs-sample
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nodejs-app
+      app: nodejs-sample
   template:
     metadata:
       labels:
-        app: nodejs-app
+        app: nodejs-sample
     spec:
       containers:
-        - name: my-nodejs
+        - name: nodejs-sample
           image: nodejs-image:latest
           ports:
             - name: http
