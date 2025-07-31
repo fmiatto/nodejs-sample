@@ -43,9 +43,9 @@ oc new-project eric
 ```
 oc new-app https://github.com/ericbos111/nodejs-sample
 ```
-6. Create a Service and an Ingress or Route, using the official documentation.
+6. Create a Service and an Ingress or a Route, using the official documentation.
 ```
-oc create route edge --service=nodejs-sample
+oc create route edge --service=nodejs-sample --port=3001
 ```
 	
    Get the Ingress or Route, using the official documentation.
