@@ -14,7 +14,7 @@ kubectl create deployment -h
 2. Install the OpenShift cli from the OpenShift web interface > Help (the question mark)
 ![image](https://github.com/user-attachments/assets/6066b21e-f34f-4f1d-ab6c-f28d21933d3b)
 
-   or from [mirror.openshift.com](mirror.openshift.com), choose the same version as the cluster version. What I usually do is copy the link, and then from my terminal window, fetch this link with curl:
+   or from [mirror.openshift.com](https://mirror.openshift.com), choose the same version as the cluster version. What I usually do is copy the link, and then from my terminal window, fetch this link with curl:
 ```
 curl -lO https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.18.9/openshift-client-linux-amd64-rhel9-4.18.9.tar.gz
 ```
