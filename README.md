@@ -7,6 +7,8 @@ If you already know the commands but don’t remember the options, you can use t
 kubectl create deployment --help 
 kubectl create deployment -h
 ```
+This exercise also requires git on your terminal, see [Install git](https://github.com/git-guides/install-git)
+
 1. The application is available on [https://github.com/ericbos111/nodejs-sample](https://github.com/ericbos111/nodejs-sample) 
 
    It uses port 3001.
